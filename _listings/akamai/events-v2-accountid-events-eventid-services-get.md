@@ -10,10 +10,10 @@ produces:
 consumes:
 - application/json
 paths:
-  /events/v2/{accountId}/events/{eventId}{?services}:
+  /events/v2/{accountId}/events/{eventId}/services:
     get:
-      summary: Get Event with its Services
-      description: Get Event with its Services
+      summary: List Services
+      description: List Services
       operationId: eventsv2accountideventseventidservices
       parameters:
       - in: String
@@ -23,10 +23,6 @@ paths:
       - in: Number
         name: eventId
         description: Unique identifier for the event
-        type: string
-      - in: String
-        name: services
-        description: Value must be detail, otherwise only returns basic event details
         type: string
       responses:
         200:
