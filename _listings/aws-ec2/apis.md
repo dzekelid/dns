@@ -33,7 +33,7 @@ apis:
   tags: DNS
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/dns/master/_listings/aws-ec2/action-describevpcclassiclinkdnssupport-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/dns/master/_listings/aws-ec2/action-disablevpcclassiclinkdnssupport-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
