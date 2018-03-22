@@ -14,9 +14,9 @@ tags:
 - Infrastructure
 - DNS Internet
 - DNS
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/dns/master/_listings/arin/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/arin/apis.yaml
 specificationVersion: "0.14"
 apis: []
 x-common:
