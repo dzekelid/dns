@@ -20,9 +20,9 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/dns/master/_listings/akamai/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Akamai API
@@ -33,7 +33,7 @@ apis:
   tags: DNS
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/dns/master/_listings/akamai/cnamefrom-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/akamai/data-dns-v1-traffic-zone-start,start-time,end,end-time,end-time,time-zone,include-estimates-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
