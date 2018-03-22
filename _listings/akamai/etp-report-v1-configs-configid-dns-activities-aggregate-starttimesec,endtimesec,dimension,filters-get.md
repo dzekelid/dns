@@ -46,11 +46,12 @@ paths:
       - configurations
       - dns
       - activities
-      - aggregate
+      - aggregation
       - starttimesec
       - endtimesec
       - dimension
       - filters
+      - aggregation
 definitions: []
 x-collection-name: Akamai
 x-streamrank:
