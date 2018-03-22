@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CheckDNSAvailability&k=1:
+  /?Action=CheckDNSAvailability:
     get:
       summary: ' Check D N S Availability '
       description: Checks if the specified CNAME is available
