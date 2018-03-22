@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DisableVpcClassicLinkDnsSupport&k=1:
+  /?Action=DisableVpcClassicLinkDnsSupport:
     get:
       summary: Disable Vpc Classic Link Dns Support
       description: Disables ClassicLink DNS support for a VPC
