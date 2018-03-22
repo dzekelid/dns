@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeVpcClassicLinkDnsSupport&k=1:
+  /?Action=DescribeVpcClassicLinkDnsSupport:
     get:
       summary: Describe Vpc Classic Link Dns Support
       description: Describes the ClassicLink DNS support status of one or more VPCs
