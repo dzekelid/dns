@@ -26,9 +26,9 @@ x-alexaRank: ""
 tags:
 - DNS
 - Amazon Web Services
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/dns/master/_listings/aws-route-53/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/aws-route-53/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Route 53 API
@@ -40,7 +40,7 @@ apis:
   tags: DNS
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/dns/master/_listings/aws-route-53/2013-04-01-testdnsanswer-amp;edns0clientsubnetip-edns0clientsubnetip-amp;edns0clientsubnetmask-edns0clientsubnetmask-hostedzoneid-hostedzoneid-amp;recordname-recordname-amp;recordtype-recordtype-amp;resolverip-resolverip-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/aws-route-53/2013-04-01-testdnsanswer-amp;edns0clientsubnetip-edns0clientsubnetip-amp;edns0clientsubnetmask-edns0clientsubnetmask-hostedzoneid-hostedzoneid-amp;recordname-recordname-amp;recordtype-recordtype-amp;resolverip-resolverip-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/Route53/latest/APIReference/
