@@ -11,9 +11,9 @@ tags:
 - Stack Network
 - Network
 - Microsoft
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/dns/master/_listings/azure-virtual-network/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/azure-virtual-network/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Virtual Network API
@@ -26,7 +26,7 @@ apis:
   tags: DNS
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/dns/master/_listings/azure-virtual-network/subscriptions-subscriptionid-providers-microsoft-network-locations-location-checkdnsnameavailability-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/azure-virtual-network/subscriptions-subscriptionid-providers-microsoft-network-locations-location-checkdnsnameavailability-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
