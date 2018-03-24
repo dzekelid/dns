@@ -18,7 +18,17 @@ created: "2018-03-23"
 modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/arin/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Reverse DNS API
+  description: ARIN offers public access to ARIN registration data via a number of
+    services
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/arin-logo.png
+  humanURL: ""
+  baseURL: :///
+  tags: DNS
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/arin/rdns-get.md
 x-common:
 - type: x-website
   url: https://www.arin.net
