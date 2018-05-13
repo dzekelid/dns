@@ -1,11 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: NetworkManagementClient
-  description: The Microsoft Azure Network management API provides a RESTful set of
-    web services that interact with Microsoft Azure Networks service to manage your
-    network resources. The API has entities that capture the relationship between
-    an end user and the Microsoft Azure Networks service.
+  title: Azure Virtual Network API Check Dns Name Availability
+  description: Checks whether a domain name in the cloudapp.net zone is available
+    for use.
   version: 1.0.0
 host: management.azure.com
 basePath: /
