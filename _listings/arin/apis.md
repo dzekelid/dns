@@ -28,6 +28,14 @@ x-common:
   url: https://github.com/arineng
 - type: x-twitter
   url: https://twitter.com/TeamARIN
+- type: x-website
+  url: https://www.arin.net
+- type: x-developer
+  url: https://www.arin.net/resources/restful-interfaces.html
+- type: x-github
+  url: https://github.com/arineng
+- type: x-twitter
+  url: https://twitter.com/TeamARIN
 include: []
 maintainers:
 - FN: Kin Lane
