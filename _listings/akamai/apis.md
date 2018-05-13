@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/akamai/etp-report-v1-configs-configid-dns-activities-time-series-starttimesec,endtimesec,dimension,filters-get.md
-- name: Akamai API Get Traffic Report
-  description: Get Traffic Report
+- name: Akamai API Report DNS Activity Time Series
+  description: Report DNS Activity Time Series
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: DNS
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/akamai/data-dns-v1-traffic-zone-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/akamai/etp-report-v1-configs-configid-dns-activities-time-series-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
