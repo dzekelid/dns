@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/aws-ec2/action-disablevpcclassiclinkdnssupport-get.md
-- name: AWS EC2 API Describe Vpc Classic Link Dns Support
-  description: Describes the ClassicLink DNS support status of one or more VPCs.
+- name: AWS EC2 API Disable Vpc Classic Link Dns Support
+  description: Disables ClassicLink DNS support for a VPC.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
   humanURL: https://aws.amazon.com/ec2/
   baseURL: http:://{host}//
   tags: DNS
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/aws-ec2/action-describevpcclassiclinkdnssupport-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/aws-ec2/action-disablevpcclassiclinkdnssupport-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
