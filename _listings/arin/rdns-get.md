@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Reverse DNS API
-  description: For managing reverse DNS.
+  title: Reverse DNS API Reverse DNS
+  description: ""
   version: 1.0.0
 schemes:
 - http
