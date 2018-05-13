@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Describe Vpc Classic Link Dns Support
   version: 1.0.0
+  description: Describes the ClassicLink DNS support status of one or more VPCs.
 schemes:
 - http
 produces:
