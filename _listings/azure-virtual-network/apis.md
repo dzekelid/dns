@@ -27,7 +27,27 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/azure-virtual-network/subscriptions-subscriptionid-providers-microsoft-network-locations-location-checkdnsnameavailability-get.md
+- name: Azure Virtual Network API Check Dns Name Availability
+  description: Checks whether a domain name in the cloudapp.net zone is available
+    for use.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
+  humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
+  baseURL: http:://management.azure.com//
+  tags: DNS
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/azure-virtual-network/subscriptions-subscriptionid-providers-microsoft-network-locations-location-checkdnsnameavailability-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/azure-virtual-network/subscriptions-subscriptionid-providers-microsoft-network-locations-location-checkdnsnameavailability-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/virtual-network/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/virtual-network/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/virtual-network/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/virtual-network/
 - type: x-pricing
