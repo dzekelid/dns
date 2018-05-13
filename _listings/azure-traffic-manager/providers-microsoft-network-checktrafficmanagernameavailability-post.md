@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: TrafficManagerManagementClient
+  title: Azure Traffic Manager API Profiles Check Traffic Manager Relative Dns Name
+    Availability
   version: 1.0.0
+  description: Checks the availability of a Traffic Manager Relative DNS name.
 host: management.azure.com
 basePath: /
 schemes:
