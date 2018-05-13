@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Disable Vpc Classic Link Dns Support
   version: 1.0.0
+  description: Disables ClassicLink DNS support for a VPC.
 schemes:
 - http
 produces:
