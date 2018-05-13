@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Update a Property Version&#8217;s Hostnames
+  description: Update a Property Version&#8217;s Hostnames
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,19 +19,19 @@ paths:
       description: Update a Property Version&#8217;s Hostnames
       operationId: cnamefrom
       parameters:
-      - in: String
+      - in: query
         name: contractId
         description: Unique identifier for the contract
         type: string
-      - in: String
+      - in: query
         name: groupId
         description: Unique identifier for the group
         type: string
-      - in: String
+      - in: query
         name: propertyId
         description: Unique identifier for the property
         type: string
-      - in: Number
+      - in: query
         name: propertyVersion
         description: Property&#8217;s incremental version number
         type: string
