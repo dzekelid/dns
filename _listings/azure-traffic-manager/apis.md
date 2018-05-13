@@ -26,7 +26,27 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/azure-traffic-manager/providers-microsoft-network-checktrafficmanagernameavailability-post.md
+- name: Azure Traffic Manager API Profiles Check Traffic Manager Relative Dns Name
+    Availability
+  description: Checks the availability of a Traffic Manager Relative DNS name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-traffic-improved-application-performance.png
+  humanURL: https://azure.microsoft.com/en-us/services/traffic-manager/
+  baseURL: http:://management.azure.com//
+  tags: DNS
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/azure-traffic-manager/providers-microsoft-network-checktrafficmanagernameavailability-post.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/traffic-manager/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/traffic-manager/
+- type: x-service-level-agreement
+  url: https://azure.microsoft.com/en-us/support/legal/sla/traffic-manager/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/traffic-manager/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/traffic-manager/
 - type: x-pricing
