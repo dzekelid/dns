@@ -41,7 +41,36 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/aws-route-53/2013-04-01-testdnsanswer-amp;edns0clientsubnetip-edns0clientsubnetip-amp;edns0clientsubnetmask-edns0clientsubnetmask-hostedzoneid-hostedzoneid-amp;recordname-recordname-amp;recordtype-recordtype-amp;resolverip-resolverip-get.md
+- name: AWS Route 53 API Test D N S Answer
+  description: Gets the value that Amazon Route 53 returns in response to a DNS request
+    for a specified record name and type. You can optionally specify the IP address
+    of a DNS resolver, an EDNS0 client subnet IP address, and a subnet mask.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
+  humanURL: https://aws.amazon.com/route53/
+  baseURL: http:://{host}//
+  tags: DNS
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/aws-route-53/2013-04-01-testdnsanswer-amp;edns0clientsubnetip-edns0clientsubnetip-amp;edns0clientsubnetmask-edns0clientsubnetmask-hostedzoneid-hostedzoneid-amp;recordname-recordname-amp;recordtype-recordtype-amp;resolverip-resolverip-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/Route53/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/route53/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=87
+- type: x-pricing
+  url: https://aws.amazon.com/route53/pricing/
+- type: x-registrar-policies
+  url: https://aws.amazon.com/route53/amazon-registrar-policies/
+- type: x-service-health
+  url: http://status.aws.amazon.com/
+- type: x-service-level-agreement
+  url: https://aws.amazon.com/route53/sla
+- type: x-sla
+  url: https://aws.amazon.com/route53/sla/
+- type: x-website
+  url: https://aws.amazon.com/route53/
 - type: x-documentation
   url: http://docs.aws.amazon.com/Route53/latest/APIReference/
 - type: x-faq
