@@ -51,6 +51,24 @@ x-common:
   url: https://twitter.com/rackspace
 - type: x-website
   url: http://www.rackspace.com/
+- type: x-base
+  url: https://dfw.servers.api.rackspacecloud.com/
+- type: x-blog
+  url: http://www.rackspace.com/blog/
+- type: x-blog-rss
+  url: http://www.rackspace.com/blog/feed/rss/
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/rackspace
+- type: x-developer
+  url: http://docs.rackspace.com/
+- type: x-github
+  url: https://github.com/rackspace
+- type: x-pricing
+  url: https://www.rackspace.com/calculator
+- type: x-twitter
+  url: https://twitter.com/rackspace
+- type: x-website
+  url: http://www.rackspace.com/
 include: []
 maintainers:
 - FN: Kin Lane
