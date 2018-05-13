@@ -27,7 +27,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/azure-dns/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-dnszones-zonename-recordsets-get.md
+- name: Azure DNS API Record Sets List By Dns Zone
+  description: Lists all record sets in a DNS zone.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-dns-01-host.png
+  humanURL: https://azure.microsoft.com/en-us/services/dns/
+  baseURL: http:://management.azure.com//
+  tags: DNS
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/azure-dns/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-dnszones-zonename-recordsets-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/azure-dns/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-dnszones-zonename-recordsets-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/dns/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/dns/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/dns/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/dns/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/dns/
 - type: x-pricing
