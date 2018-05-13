@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Check D N S Availability
   version: 1.0.0
+  description: Checks if the specified CNAME is available.
 schemes:
 - http
 produces:
