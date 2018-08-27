@@ -1,54 +1,25 @@
 ---
 name: Azure DNS
+x-slug: azure-dns
 description: Azure DNS lets you host your DNS domains alongside your Azure apps and
-  manage DNS records by using your existing Azure subscription. Microsoftrsquo;s global
-  network of name servers has the reach, scale, and redundancy to ensure ultra-fast
+  manage DNS records by using your existing Azure subscription. Microsoft&rsquo;s
+  global network of name servers has the reach, scale, and redundancy to ensure ultra-fast
   DNS responses and ultra-high availability for your domains. With Azure DNS, you
   can be sure your DNS will always be fast and available.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-dns-01-host.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Microsoft
-- DNS
-created: "2018-03-23"
-modified: "2018-03-23"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/azure-dns/apis.yaml
+x-alexaRank: "0"
+tags: DNS
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/azure-dns/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Azure DNS API
-  description: Azure DNS lets you host your DNS domains alongside your Azure apps
-    and manage DNS records by using your existing Azure subscription
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-dns-01-host.png
-  humanURL: ""
-  baseURL: ://management.azure.com//
-  tags: DNS
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/azure-dns/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-dnszones-zonename-recordsets-get.md
-- name: Azure DNS API Record Sets List By Dns Zone
-  description: Lists all record sets in a DNS zone.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-dns-01-host.png
-  humanURL: https://azure.microsoft.com/en-us/services/dns/
-  baseURL: http:://management.azure.com//
-  tags: DNS
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/azure-dns/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-dnszones-zonename-recordsets-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/azure-dns/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-network-dnszones-zonename-recordsets-get-postman.md
+apis: []
 x-common:
-- type: x-documentation
-  url: https://docs.microsoft.com/en-us/azure/dns/
-- type: x-pricing
-  url: https://azure.microsoft.com/en-us/pricing/details/dns/
-- type: x-service-level-agreements
-  url: https://azure.microsoft.com/en-us/support/legal/sla/dns/
-- type: x-status
-  url: https://azure.microsoft.com/en-us/status/
-- type: x-website
-  url: https://azure.microsoft.com/en-us/services/dns/
+- type: x-api-gallery
+  url: http://azure.devtest.labs.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://azure.dns.stack.network
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/dns/
 - type: x-pricing

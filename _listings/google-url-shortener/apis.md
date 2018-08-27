@@ -1,5 +1,6 @@
 ---
 name: Google URL Shortener
+x-slug: google-url-shortener
 description: The Google URL Shortener at goo.gl is a service that takes long URLs
   and squeezes them into fewer characters to make a link that is easier to share,
   tweet, or email to friends. Users can create these short links through the web interface
@@ -8,19 +9,18 @@ description: The Google URL Shortener at goo.gl is a service that takes long URL
   to create, inspect, and manage goo.gl short links from desktop, mobile, or web.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-shortener.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- URL Shortener
-- Stack Network
-- Links
-- Google APIs
-- DNS
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/dns/master/_listings/google-url-shortener/apis.yaml
+x-alexaRank: "0"
+tags: DNS
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/google-url-shortener/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://google.translate.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.url.shortener.stack.network
 - type: x-developer
   url: https://developers.google.com/url-shortener/
 - type: x-documentation

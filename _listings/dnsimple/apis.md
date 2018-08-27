@@ -1,19 +1,15 @@
 ---
 name: DNSimple
-description: DNSimple provides DNS hosting and domain registration that is simple
-  and friendly. We provide a full API and an easy-to-use web interface so you can
-  get your domain registered and set up with a minimal amount of effort.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/575_logo.jpg
+x-slug: dnsimple
+description: DNSimple provides domain name services that make your life easier with
+  a carefully crafted web interface and a REST API for automation.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/575-dnsimple.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Domain
-- DNS General
-- DNS
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/dns/master/_listings/dnsimple/apis.yaml
+x-alexaRank: "81223"
+tags: DNS
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/dnsimple/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -25,8 +21,16 @@ x-common:
   url: http://blog.dnsimple.com/rss
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/dnsimple
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/dnsimple
 - type: x-developer
   url: http://developer.dnsimple.com/
+- type: x-email
+  url: support@dnsimple.com
+- type: x-email
+  url: reseller@dnsimple.com
+- type: x-email
+  url: enterprise@dnsimple.com
 - type: x-github
   url: https://github.com/dnsimple
 - type: x-pricing

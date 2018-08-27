@@ -1,24 +1,24 @@
 ---
 name: DNS Check
-description: DNS Check enables you to easily monitor, share and troubleshoot DNS records.
-image: https://cdn.dnscheck.co/images/dns-check-icon.png
+x-slug: dns-check
+description: Monitor DNS records. Request DNS updates by sharing reports that show
+  the pass/fail status of each record. Troubleshoot DNS issues. DNS records are automatically
+  re-checked, and reports updated. DNS records can be imported from a zone file, or
+  added in...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18972-dns-check.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- spf record check
-- mx record check
-- Monitoring
-- dns monitor
-- DNS General
-- dns check
-- DNS
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/dns/master/_listings/dns-check/apis.yaml
+x-alexaRank: "3315601"
+tags: DNS
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/dns-check/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://disqus.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://dns.check.stack.network
 - type: x-developer
   url: https://www.dnscheck.co/documentation
 - type: x-pricing

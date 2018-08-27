@@ -1,5 +1,6 @@
 ---
 name: Google Cloud DNS
+x-slug: google-cloud-dns
 description: Google Cloud DNS is a scalable, reliable and managed authoritative Domain
   Name System (DNS) service running on the same infrastructure as Google. It has low
   latency, high availability and is a cost-effective way to make your applications
@@ -9,17 +10,18 @@ description: Google Cloud DNS is a scalable, reliable and managed authoritative 
   user interface, command-line interface or API.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-dns-network.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Google APIs
-- DNS
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/dns/master/_listings/google-cloud-dns/apis.yaml
+x-alexaRank: "0"
+tags: DNS
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/google-cloud-dns/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://google.cloud.deployment.manager.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.cloud.dns.stack.network
 - type: x-documentation
   url: https://cloud.google.com/dns/docs/
 - type: x-forum
