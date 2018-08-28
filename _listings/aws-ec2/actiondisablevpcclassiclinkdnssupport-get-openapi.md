@@ -1,0 +1,75 @@
+---
+swagger: "2.0"
+x-collection-name: AWS EC2
+x-complete: 0
+info:
+  title: AWS EC2 API Disable Vpc Classic Link Dns Support
+  version: 1.0.0
+  description: Disables ClassicLink DNS support for a VPC.
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /?Action=DescribeVpcClassicLinkDnsSupport:
+    get:
+      summary: Describe Vpc Classic Link Dns Support
+      description: Describes the ClassicLink DNS support status of one or more VPCs.
+      operationId: describevpcclassiclinkdnssupport
+      x-api-path-slug: actiondescribevpcclassiclinkdnssupport-get
+      parameters:
+      - in: query
+        name: DryRun
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,     and provides an error response
+        type: string
+      - in: query
+        name: InstanceId
+        description: The ID of the instance to unlink from the VPC
+        type: string
+      - in: query
+        name: VpcId
+        description: The ID of the VPC to which the instance is linked
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - VPC DNS
+  /?Action=DisableVpcClassicLinkDnsSupport:
+    get:
+      summary: Disable Vpc Classic Link Dns Support
+      description: Disables ClassicLink DNS support for a VPC.
+      operationId: disablevpcclassiclinkdnssupport
+      x-api-path-slug: actiondisablevpcclassiclinkdnssupport-get
+      parameters:
+      - in: query
+        name: DryRun
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,     and provides an error response
+        type: string
+      - in: query
+        name: VpcId
+        description: The ID of the VPC
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - VPC DNS
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

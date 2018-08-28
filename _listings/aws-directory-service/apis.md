@@ -15,11 +15,25 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: DNS
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/aws-directory-service/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Directory Service API - Add Ip Routes
+  x-api-slug: actionaddiproutes-get
+  description: If the DNS server for your on-premises domain uses a publicly addressable
+    IP address, you must add a CIDR address block to correctly route traffic to and
+    from your Microsoft AD on Amazon Web Services.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
+  humanURL: https://aws.amazon.com/directoryservice/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Authentication, Security, Stack Network, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/aws-directory-service/actionaddiproutes-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.direct.connect.api.gallery.streamdata.io

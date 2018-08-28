@@ -16,11 +16,33 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: DNS
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/aws-ec2/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS EC2 API - Describe Vpc Classic Link Dns Support
+  x-api-slug: actiondescribevpcclassiclinkdnssupport-get
+  description: Describes the ClassicLink DNS support status of one or more VPCs.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/aws-ec2/actiondescribevpcclassiclinkdnssupport-get-openapi.md
+- name: AWS EC2 API - Disable Vpc Classic Link Dns Support
+  x-api-slug: actiondisablevpcclassiclinkdnssupport-get
+  description: Disables ClassicLink DNS support for a VPC.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dns/master/_listings/aws-ec2/actiondisablevpcclassiclinkdnssupport-get-openapi.md
 - name: AWS EC2 API - Enable Vpc Classic Link Dns Support
   x-api-slug: actionenablevpcclassiclinkdnssupport-get
   description: Enables a VPC to support DNS hostname resolution for ClassicLink.
